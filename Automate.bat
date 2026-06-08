@@ -2,12 +2,12 @@ echo off
 
 cls
 
-echo unpairing/removing ds4
+echo unpairing/removing Pro Controller
 
-btpair -u -n"Wireless Controller"
+btpair -u -n"Pro Controller"
 
-echo Searching ds4/controller
+echo Searching Pro Controller
 
-btpair -p -n"Wireless Controller"
+btpair -p -n"Pro Controller"
 
 
